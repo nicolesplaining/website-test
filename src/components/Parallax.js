@@ -124,8 +124,8 @@ function Parallax() {
                 <img ref={cloudsRight} className='clouds-right' src="/parallax/clouds-right.svg" />
                 <img ref={stars} className='stars' src="/parallax/stars.svg" />
                 <div ref={copy} className="copy">
-                    <h1>Journey</h1>
-                    <span ref={btn}>Discover more</span>
+                    <h1>Hello!</h1>
+                    <p>My name is <strong>Nicole Ma</strong>, and I am a freshman at Stanford University pursuing a B.S. in Computer Science and a minor in Mathematics. I'm passionate about artificial intelligence and sustainability. I'm currently developing machine learning models to enhance energy output forecasting for offshore wind applications.</p>
                 </div>
             </div>
         </div>
