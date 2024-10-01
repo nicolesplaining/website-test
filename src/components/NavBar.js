@@ -31,7 +31,7 @@ const NavBar = () => {
                 >
                 <FaEnvelope size={26} />
                 </a>
-                <Link href="/signup" className={styles.ctaButton}>Resume (PDF)</Link>
+                <Link href="/Resume_Final.pdf" target = "_blank" className={styles.ctaButton}>Resume (PDF)</Link>
             </div>
         </nav>
   );
