@@ -6,6 +6,7 @@ import Experience from '@/components/Experience'
 function Home() {
   return (
     <>
+    <div className = 'hideOnMobile'>
       <NavBar />
       <Parallax />
       {/* <div className='about'>
@@ -19,6 +20,7 @@ function Home() {
       <div className="copyright">
       © 2024, Made with ❤️ by Nicole Ma
       </div>
+    </div>
 
             {/* Mobile message, only shown on mobile */}
             <div className="mobileMessage">
