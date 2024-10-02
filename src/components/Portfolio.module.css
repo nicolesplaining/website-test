@@ -24,9 +24,10 @@
   }
   
   .portfolioImage {
-    width: 700px; /* Set the width for the image */
+    /* width: 700px; // Set the width for the image */
+    width: 60%;
     height: auto;
-    border-radius: 10px; /* Optional: rounded corners for the image */
+    border-radius: 10px; 
   }
   
   .portfolioText {
