@@ -33,7 +33,7 @@ const Experience = () => {
       description: [
         "Used webscraping to collect 60K+ data points on X/Twitter",
         "Created two Convolutional Neural Networks to detect and classify hate speech with state-of-the-art AUC scores",
-        "Created website using Google Firebase and Plotly to monitor $>$10K tweets each day and to display real-time analysis",
+        "Created website using Google Firebase and Plotly to monitor >10K tweets each day and to display real-time analysis",
         "Published research as 1st author in the proceedings of the International Conference on Advances in Computer Science and Information Technology"
       ],
     },
