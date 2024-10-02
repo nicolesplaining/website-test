@@ -19,6 +19,11 @@ function Home() {
       <div className="copyright">
       © 2024, Made with ❤️ by Nicole Ma
       </div>
+
+            {/* Mobile message, only shown on mobile */}
+            <div className="mobileMessage">
+        Please view this website on a laptop or desktop for the best experience.
+      </div>
     </>
   )
 }

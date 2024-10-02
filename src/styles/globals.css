@@ -1,3 +1,35 @@
+/* Default styling for larger screens (laptop, desktop) */
+.hideOnMobile {
+    display: block;
+}
+
+.mobileMessage {
+    display: none;
+    font-size: 1.5rem;
+    color: #f0a500;
+    text-align: center;
+    padding: 20px;
+}
+
+/* When the screen width is less than or equal to 768px (mobile screens) */
+@media only screen and (max-width: 768px) {
+    .hideOnMobile {
+        display: none; /* Hide the main content */
+    }
+
+    .mobileMessage {
+        display: block; /* Show the mobile message */
+        font-size: 2rem;
+        color: #f0a500;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+
+
+
 *,
 html,
 body {
