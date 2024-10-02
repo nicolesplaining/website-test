@@ -16,8 +16,9 @@ function Home() {
       </div> */}
       <Portfolio />
       <Experience />
-
-      <p>© 2024, Made with ❤️ by Nicole Ma</p>
+      <div className="copyright">
+      © 2024, Made with ❤️ by Nicole Ma
+      </div>
     </>
   )
 }

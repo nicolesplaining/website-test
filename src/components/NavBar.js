@@ -11,7 +11,7 @@ const NavBar = () => {
             <ul className={styles.navLinks}>
                 <li><Link href="#portfolio">Portfolio</Link></li>
                 <li><Link href="#experience">Experience</Link></li>
-                <li><Link href="#contact">Contact</Link></li>
+                {/* <li><Link href="#contact">Contact</Link></li> */}
             </ul>
             <div className={styles.ctaSection}>
                 <a

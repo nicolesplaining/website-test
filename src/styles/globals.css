@@ -126,3 +126,11 @@ body {
     margin-top: 20px;
     width: 50%;
 }
+
+.copyright {
+    position: relative; /* Use absolute positioning */
+    bottom:10px;
+    float:right;
+    right:10px;
+
+}

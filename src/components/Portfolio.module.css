@@ -1,56 +1,109 @@
-.portfolioContainer {
+/* .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+.portfolioItem {
+  width: 100%;
+  max-width:80%;
+  background-color: #f9f9f9;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+  
+.portfolioContent {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.portfolioImage {
+  width: 60%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.portfolioText {
+  flex: 1;
+}
+
+.portfolioTitle {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #282a57;
+}
+
+.portfolioDescription {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0 0 0;
+}
+
+.titl{
+  text-align:center;
+  font-size: 2.5rem;
+  color:#f0a500;
+}
+   */
+
+   .portfolioContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px; /* Space between each box */
     padding: 20px;
-  }
-  
-  .portfolioItem {
+}
+
+.portfolioItem {
     width: 100%;
-    /* max-width: 600px; */
-    max-width:80%;
+    max-width: 80%;
     background-color: #f9f9f9;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
-  }
-  
-  .portfolioContent {
+}
+
+.portfolioContent {
     display: flex;
     align-items: center;
-    gap: 20px; /* Space between image and text */
-  }
-  
-  .portfolioImage {
-    /* width: 700px; // Set the width for the image */
-    width: 60%;
+    gap: 20px; /* Space between the image and text */
+    flex-direction: row; /* Make items appear side by side */
+}
+
+.imageWrapper {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.portfolioImage {
+    max-width: 600px; /* Set a fixed width for the image */
     height: auto;
-    border-radius: 10px; 
-  }
-  
-  .portfolioText {
-    flex: 1; /* Allow the text container to take the remaining space */
-  }
-  
-  .portfolioTitle {
+    border-radius: 10px;
+}
+
+.portfolioText {
+    flex: 1; /* Allow the text to take up the remaining space */
+    text-align: left;
+}
+
+.portfolioTitle {
     font-size: 1.5rem;
     margin: 0;
     color: #282a57;
-  }
-  
-  .portfolioDescription {
+}
+
+.portfolioDescription {
     font-size: 1rem;
     color: #666;
     margin: 10px 0 0 0;
-  }
+}
 
-  .titl{
-    text-align:center;
-    /* display:flex;
-    align-items: center; */
+.titl {
+    text-align: center;
     font-size: 2.5rem;
-    color:#f0a500;
-  }
-  
+    color: #f0a500;
+}
